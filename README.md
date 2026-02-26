@@ -45,7 +45,7 @@ Designed for clarity and speed, with <10 ms render targets.
 Smarter navigation that learns from how you work.
 
 ```bash
-`Axis` cd proj
+axis cd proj
 ```
 
 `Axis` ranks locations based on frequency and recency, so the most relevant destination appears first.
@@ -57,7 +57,7 @@ Smarter navigation that learns from how you work.
 Powerful history search to find commands instantly.
 
 ```bash
-`Axis` search docker
+axis search docker
 ```
 
 Features:
@@ -88,7 +88,7 @@ Features:
 
 ```bash
 curl -fsSL https://`Axis`.sh/install | sh
-`Axis` init
+axis init
 ```
 
 `Axis` detects your shell and configures integration automatically.
@@ -98,14 +98,14 @@ curl -fsSL https://`Axis`.sh/install | sh
 ## Core Commands
 
 ```bash
-`Axis` init        # initialize shell integration
-`Axis` doctor      # diagnose setup issues
-`Axis` search      # search command history
-`Axis` history     # view stored history
-`Axis` cd          # smart directory navigation
-`Axis` config      # manage configuration
-`Axis` version     # show version
-`Axis` uninstall   # remove `Axis`
+ axis init        # initialize shell integration
+ axis doctor      # diagnose setup issues
+ axis search      # search command history
+ axis history     # view stored history
+ axis cd          # smart directory navigation
+ axis config      # manage configuration
+ axis version     # show version
+ axis uninstall   # remove Axis
 ```
 
 ---
@@ -115,7 +115,7 @@ curl -fsSL https://`Axis`.sh/install | sh
 Configuration lives at:
 
 ```
-~/.config/`Axis`/config.toml
+~/.config/Axis/config.toml
 ```
 
 `Axis` works without configuration.
