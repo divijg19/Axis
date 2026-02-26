@@ -86,8 +86,17 @@ Features:
 
 ## Installation
 
+Initial Installer curl-
+
 ```bash
-curl -fsSL https://`Axis`.sh/install | sh
+curl -fsSL https://raw.githubusercontent.com/divijg19/Axis/main/install.sh | sh
+axis init
+```
+
+Eventually-
+
+```bash
+curl -fsSL https://Axis.sh/install | sh
 axis init
 ```
 
